@@ -1,0 +1,1 @@
+import{t as e}from"./ServicePageTemplate-C_cwf_KV.js";import{t}from"./index-NXa9qfd3.js";import{r as n}from"./Icon-DOZAUenz.js";var r=n();function i(){return(0,r.jsx)(e,{service:t(`digital-transformation`)})}export{i as default};

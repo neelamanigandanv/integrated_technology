@@ -1,0 +1,1 @@
+import{g as e}from"./index-NXa9qfd3.js";import{r as t}from"./Icon-DOZAUenz.js";var n=t();function r({children:t,delay:r=0,y:i=24,className:a=``,once:o=!0,...s}){return(0,n.jsx)(e.div,{initial:{opacity:0,y:i},whileInView:{opacity:1,y:0},viewport:{once:o,amount:.12},transition:{duration:.6,delay:r,ease:[.22,1,.36,1]},className:a,...s,children:t})}export{r as t};
