@@ -22,6 +22,8 @@ export const insights = [
     featured: true,
     tags: ['AI', 'MLOps', 'Governance'],
     accent: 'from-blue-600 to-cyan-500',
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1800&q=90',
+    imageAlt: 'Humanoid robot representing artificial intelligence',
     content: [
       {
         heading: 'The demo is the easy part',
@@ -73,6 +75,8 @@ export const insights = [
     featured: false,
     tags: ['Performance', 'SEO', 'React'],
     accent: 'from-cyan-500 to-blue-600',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Laptop displaying a web development workspace',
     content: [
       {
         heading: 'Measure real users, not only lab scores',
@@ -116,6 +120,8 @@ export const insights = [
     featured: false,
     tags: ['Strategy', 'Custom software'],
     accent: 'from-indigo-600 to-blue-500',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Software team collaborating around a laptop',
     content: [
       {
         heading: 'The question behind the question',
@@ -159,6 +165,8 @@ export const insights = [
     featured: false,
     tags: ['Cloud', 'FinOps', 'Azure'],
     accent: 'from-blue-600 to-sky-500',
+    image: 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Modern collaborative workspace',
     content: [
       {
         heading: 'You cannot optimize what you cannot see',
@@ -202,6 +210,8 @@ export const insights = [
     featured: false,
     tags: ['Transformation', 'Strategy', 'Change'],
     accent: 'from-violet-600 to-blue-500',
+    image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Business team collaborating around a table',
     content: [
       {
         heading: 'Start with an outcome, not a platform',
@@ -245,6 +255,8 @@ export const insights = [
     featured: false,
     tags: ['Generative AI', 'RAG', 'Knowledge'],
     accent: 'from-cyan-500 to-teal-500',
+    image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1800&q=90',
+    imageAlt: 'Humanoid robot representing artificial intelligence',
     content: [
       {
         heading: 'Why general models are not enough',
@@ -288,6 +300,8 @@ export const insights = [
     featured: false,
     tags: ['Security', 'Identity', 'Zero trust'],
     accent: 'from-slate-700 to-blue-600',
+    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Abstract digital security visualization',
     content: [
       {
         heading: 'Less slogan, more specifics',
@@ -330,6 +344,8 @@ export const insights = [
     featured: false,
     tags: ['Architecture', 'APIs', 'Platforms'],
     accent: 'from-blue-600 to-indigo-500',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Technology team working together on a software platform',
     content: [
       {
         heading: 'From suites to building blocks',
@@ -372,6 +388,8 @@ export const insights = [
     featured: false,
     tags: ['UX', 'Accessibility', 'Design systems'],
     accent: 'from-teal-500 to-cyan-500',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=85',
+    imageAlt: 'Designer working on a digital interface',
     content: [
       {
         heading: 'Clarity beats cleverness',

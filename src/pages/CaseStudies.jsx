@@ -14,16 +14,31 @@ export default function CaseStudies() {
   const [featured, ...moreStudies] = caseStudies
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-[#eef1ff] via-[#f7f8fc] to-[#f0ecff] py-10 sm:py-14">
+    <>
+      <section aria-labelledby="case-studies-title" className="relative h-[360px] overflow-hidden sm:h-[420px] lg:h-[470px]">
+        <img
+          src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=2000&q=90"
+          alt="Technology team collaborating around a table"
+          className="absolute inset-0 h-full w-full object-cover object-[center_45%]"
+        />
+        <div className="absolute inset-0 bg-black/35" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#081321]/80 via-[#081321]/45 to-transparent" />
+        <Container className="relative flex h-full items-end pb-12 sm:pb-16 lg:px-8">
+          <div className="max-w-xl text-white">
+            <h1 id="case-studies-title" className="max-w-md font-sans text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-[52px]">
+              Case Studies
+            </h1>
+            <p className="mt-4 text-base leading-7 text-white/90 sm:text-lg">
+              Real-world technology challenges. Practical solutions. Measurable impact.
+            </p>
+          </div>
+        </Container>
+      </section>
+
+      <section className="relative overflow-hidden bg-gradient-to-br from-[#eef1ff] via-[#f7f8fc] to-[#f0ecff] py-10 sm:py-14">
       <div className="pointer-events-none absolute -right-36 top-24 h-96 w-96 rounded-full bg-violet-200/30 blur-3xl" />
       <div className="pointer-events-none absolute -left-40 bottom-40 h-96 w-96 rounded-full bg-blue-200/30 blur-3xl" />
       <Container className="relative">
-        <div className="mb-7 flex items-center gap-2 text-[12px] font-semibold text-muted">
-          <Link to="/" className="transition-colors hover:text-brand">Home</Link>
-          <Icon name="ChevronRight" className="h-3.5 w-3.5" />
-          <span className="text-brand">Case Studies</span>
-        </div>
-
         <Reveal>
           <Link
             to={`/case-studies/${featured.slug}`}
@@ -43,7 +58,7 @@ export default function CaseStudies() {
                 <p className="mt-5 max-w-2xl text-[15px] leading-7 text-slate-200 sm:text-base">
                   {featured.excerpt}
                 </p>
-                <span className="mt-8 inline-flex items-center gap-3 rounded-md bg-white px-5 py-3.5 text-[13px] font-bold text-navy transition-colors group-hover:bg-brand group-hover:text-white">
+                <span className="mt-8 inline-flex items-center gap-3 rounded-sm bg-white px-5 py-3.5 text-[13px] font-bold text-navy transition-colors group-hover:bg-brand group-hover:text-white">
                   Read case study
                   <Icon name="ArrowRight" className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </span>
@@ -113,7 +128,7 @@ export default function CaseStudies() {
             </p>
             <Link
               to="/contact-us"
-              className="mt-7 inline-flex items-center gap-2 rounded-full bg-brand px-5 py-3 text-[13px] font-semibold text-white transition-colors hover:bg-branddark"
+              className="mt-7 inline-flex items-center gap-2 rounded-md bg-brand px-5 py-3 text-[13px] font-semibold text-white transition-colors hover:bg-branddark"
             >
               Talk through your project
               <Icon name="ArrowRight" className="h-4 w-4" />
@@ -159,6 +174,7 @@ export default function CaseStudies() {
           </div>
         </div>
       </Container>
-    </section>
+      </section>
+    </>
   )
 }

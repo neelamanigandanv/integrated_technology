@@ -22,6 +22,7 @@ const DevOpsAutomation = lazy(() => import('./pages/services/DevOpsAutomation'))
 const ITConsulting = lazy(() => import('./pages/services/ITConsulting'))
 const DigitalTransformation = lazy(() => import('./pages/services/DigitalTransformation'))
 const Cybersecurity = lazy(() => import('./pages/services/Cybersecurity'))
+const TechEngineering = lazy(() => import('./pages/services/TechEngineering'))
 const BlogDetails = lazy(() => import('./pages/insights/BlogDetails'))
 
 export default function App() {
@@ -48,6 +49,7 @@ export default function App() {
         <Route path="services/it-consulting" element={<ITConsulting />} />
         <Route path="services/digital-transformation" element={<DigitalTransformation />} />
         <Route path="services/cybersecurity" element={<Cybersecurity />} />
+        <Route path="services/tech-engineering" element={<TechEngineering />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

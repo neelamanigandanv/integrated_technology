@@ -41,6 +41,18 @@ export default function MegaMenu({ onNavigate }) {
               </span>
               <span className="text-[13px] font-bold text-navy group-hover:text-brand">What We Do Overview</span>
             </Link>
+            <Link
+              to="/services/tech-engineering"
+              onClick={onNavigate}
+              className="group flex items-center gap-3 rounded-xl px-3 py-3 transition-colors hover:bg-surface"
+            >
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-brand transition-colors group-hover:bg-brand group-hover:text-white">
+                <Icon name="Cpu" className="h-4 w-4" />
+              </span>
+              <span className="text-[13px] font-semibold leading-tight text-ink transition-colors group-hover:text-brand">
+                Tech &amp; Engineering Services
+              </span>
+            </Link>
             {services.map((service) => (
               <Link
                 key={service.slug}

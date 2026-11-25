@@ -83,6 +83,14 @@ export default function MobileNavigation({ open, onClose }) {
                             <Link to="/what-we-do" onClick={onClose} className="rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:bg-surface">
                               What We Do Overview
                             </Link>
+                            <Link
+                              to="/services/tech-engineering"
+                              onClick={onClose}
+                              className="flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-semibold text-navy hover:bg-surface hover:text-brand"
+                            >
+                              <Icon name="Cpu" className="h-4 w-4 shrink-0 text-brand" />
+                              Tech &amp; Engineering Services
+                            </Link>
                             {services.map((service) => (
                               <Link
                                 key={service.slug}
